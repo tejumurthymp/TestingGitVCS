@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d(TAG, "startJobOrCancel: called")
                 Log.d(TAG, "startJobOrCancel: called")
                 Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: ")
             }
 
             GlobalScope.async(Main){
