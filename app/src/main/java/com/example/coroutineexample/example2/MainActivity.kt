@@ -70,6 +70,11 @@ class MainActivity : AppCompatActivity() {
                     //Log.d(TAG, "startJobOrCancel: ")
                 }
                 Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: ")
             }
 
         }
