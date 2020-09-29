@@ -67,13 +67,11 @@ class MainActivity : AppCompatActivity() {
                 }
                 withContext(Main){
                     job_text.text = "Job is complete"
+                    //Log.d(TAG, "startJobOrCancel: ")
                 }
                 Log.d(TAG, "startJobOrCancel: called")
             }
 
-            GlobalScope.async(Main){
-
-            }
         }
     }
 
