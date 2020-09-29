@@ -65,11 +65,17 @@ class MainActivity : AppCompatActivity() {
                     delay((JOB_TIME / PROGRESS_MAX).toLong())
                     this@startJobOrCancel.progress = i
                 }
-                withContext(Main){
+                /*withContext(Main){
                     job_text.text = "Job is complete"
                     //Log.d(TAG, "startJobOrCancel: ")
                 }
-                Log.d(TAG, "startJobOrCancel: called")
+                Log.d(TAG, "startJobOrCancel: called")*/
+
+
+                Log.d(
+                    TAG,
+                    "startJobOrCancel: This changes only apply to test branch not applicable to master branch"
+                )
             }
 
         }
