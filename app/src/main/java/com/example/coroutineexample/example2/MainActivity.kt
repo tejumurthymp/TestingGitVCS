@@ -93,6 +93,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity,text,Toast.LENGTH_SHORT).show()
         }
 
+        ///GlobalScope.launch { Toast.makeText(this@MainActivity,text,Toast.LENGTH_LONG).show() }
+
         /*GlobalScope.launch(IO) {
             Toast.makeText(this@MainActivity,text,Toast.LENGTH_SHORT).show()
         }*/
