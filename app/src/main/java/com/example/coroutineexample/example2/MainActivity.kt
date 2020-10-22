@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         Log.i(TAG, "onCreate: hello it is info variable")
+        Log.i(TAG, "onCreate: hello it is info variable")
     }
 
     private fun initJob(){
